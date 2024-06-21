@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import UserProfileCard from './UserProfileCard/UserProfileCard';
+/*import UserProfileCard from './UserProfileCard/UserProfileCard';*/
+import CounterApp from './CounterApp/CounterApp';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UserProfileCard/>
+    {/*<UserProfileCard/>*/}
+    <CounterApp/>
     <App />
   </React.StrictMode>
 );
