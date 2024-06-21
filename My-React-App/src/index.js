@@ -4,15 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 /*import UserProfileCard from './UserProfileCard/UserProfileCard';*/
-import CounterApp from './CounterApp/CounterApp';
+/*import CounterApp from './CounterApp/CounterApp';*/
+import FormComponent from './FormComponent/FormComponent';
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FormComponent/>
     {/*<UserProfileCard/>*/}
-    <CounterApp/>
-    <App />
+    {/*<CounterApp/>*/}
+        <App />
   </React.StrictMode>
 );
 
