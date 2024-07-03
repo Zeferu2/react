@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 /*import UserProfileCard from './UserProfileCard/UserProfileCard';*/
 /*import CounterApp from './CounterApp/CounterApp';*/
-import FormComponent from './FormComponent/FormComponent';
+/*import FormComponent from './FormComponent/FormComponent';*/
+ import ContactForm from './ContactForm/contactForm';
 
 
 
@@ -14,7 +15,8 @@ import FormComponent from './FormComponent/FormComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormComponent/>
+     <ContactForm/>
+    {/*<FormComponent/>*/}
     {/*<UserProfileCard/>*/}
     {/*<CounterApp/>*/}
         <App />
