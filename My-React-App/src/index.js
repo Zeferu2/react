@@ -6,7 +6,9 @@ import reportWebVitals from './reportWebVitals';
 /*import UserProfileCard from './UserProfileCard/UserProfileCard';*/
 /*import CounterApp from './CounterApp/CounterApp';*/
 /*import FormComponent from './FormComponent/FormComponent';*/
- import ContactForm from './ContactForm/contactForm';
+ /*import ContactForm from './ContactForm/contactForm';*/
+ import SimpleRouting from './BasicRouting/SimpleRouting';
+ 
 
 
 
@@ -15,11 +17,12 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <ContactForm/>
+    <SimpleRouting/>
+     {/*<ContactForm/>*/}
     {/*<FormComponent/>*/}
     {/*<UserProfileCard/>*/}
     {/*<CounterApp/>*/}
-        <App />
+     <App />
   </React.StrictMode>
 );
 
